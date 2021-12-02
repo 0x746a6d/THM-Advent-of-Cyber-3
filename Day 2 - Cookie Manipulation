@@ -1,0 +1,49 @@
+Day 2 -- Cookie Manipulation
+
+Summary of how cookie values could be manipulated
+1. Obtain a cookie value from registering or signing up for an account.
+2. Decode the cookie value.
+3. Identify the object notation or structure of the cookie.
+4. Change the parameters inside the object to a different parameter with a higher privilege level, such as admin or administrator.
+5. Re-encode the cookie and insert the cookie into the value space; this can be done by double-clicking the value box.
+6. Action the cookie; this can be done by refreshing the page or logging in.
+
+
+Open this static website (https://static-labs.tryhackme.cloud/sites/aoc-cookies/)
+
+
+Register an account and verify the cookie created using the developer tools on your browser.
+
+Question 1: What is the name of the new cookie that was created for your account?
+
+user-auth
+
+Question 2: What encoding type was used for the cookie value?
+
+hexadecimal
+
+Question 3: What object format is the data of the cookie stored in?
+
+JSON
+
+Manipulate the cookie and bypass the login portal. Use CyberChef (https://gchq.github.io/CyberChef/) to convert the value to a readable string. 
+
+Question 4: What is the value of the administrator cookie? (username = admin)
+
+7b636f6d70616e793a2022546865204265737420466573746976616c20436f6d70616e79222c206973726567697374657265643a2254727565222c20757365726e616d653a2261646d696e227d
+
+Change the cookie in your browser to this answer with the admin username and bypass the login page on the below link. 
+Refresh the page or submit to the website again with this url (https://static-labs.tryhackme.cloud/sites/aoc-cookies/)
+
+Question 5: What team environment is not responding?
+
+HR
+
+Question 6: What team environment has a network warning?
+
+Application
+
+
+That's Day 2! 🎅 
+
+
